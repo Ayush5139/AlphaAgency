@@ -42,7 +42,7 @@ const loader = new GLTFLoader()
 
 loader.load(
   // resource URL
-  'moon.gltf',
+  'dist/assets/moon.gltf',
   // called when the resource is loaded
   function (gltf) {
     gltf.scene.position.set(0,-5,3)
